@@ -23734,7 +23734,6 @@ dl li {
 }
 
 .nav-pills {
-  border-bottom: 1px solid #f3f3f3;
   padding-bottom: 1rem;
 }
 
@@ -27437,7 +27436,6 @@ div.tagsinput span.tag a {
   -webkit-box-shadow: 6px 16px 31px -18px #b7bcd1;
   -moz-box-shadow: 6px 16px 31px -18px #b7bcd1;
   -ms-box-shadow: 6px 16px 31px -18px #b7bcd1;
-  margin-left: 10px;
 }
 
 .sidebar .nav {
@@ -27466,8 +27464,8 @@ div.tagsinput span.tag a {
   -webkit-align-items: center;
   align-items: center;
   white-space: nowrap;
-  padding: 0.75rem 1.6rem 0.75rem 0.687rem;
-  color: #817da1;
+  border: none;
+  color: #fff;
   -webkit-transition-duration: 0.45s;
   -moz-transition-duration: 0.45s;
   -o-transition-duration: 0.45s;

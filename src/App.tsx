@@ -44,7 +44,7 @@ export default class App extends Component {
             <Router>
               <div className="container-scroller">
                 <Nav/>
-                <div className="container-fluid page-body-wrapper">
+                <div className="container-fluid p-0 page-body-wrapper">
                   <SideBar/>
                   <div className="main-panel">
                     <Redirect/>
