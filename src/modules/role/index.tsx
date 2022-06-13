@@ -12,7 +12,7 @@ class index extends Component {
        if(profileStore.getProfile){
            if(profileStore.getProfile.role === Role.PAYMENT_MYTEL){
                return <Redirect to="/transaction"/>
-           }else  return <Redirect to="/game-list"/>
+           }else  return <Redirect to="/"/>
        }else return true
 
     }
