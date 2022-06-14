@@ -80,7 +80,7 @@ class ProfileStore {
             toastUtil.warning('Password must be between 6 and 50 characters.');
         } else if (!confirmPassword) {
             toastUtil.warning('Please enter confirm password.');
-        } else if (confirmPassword != password) {
+        } else if (confirmPassword !== password) {
             toastUtil.warning('Password and confirmPassword not match.');
         } else {
             const data: any = {

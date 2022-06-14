@@ -40,15 +40,14 @@ class LoginStore {
         this.FormError = undefined
     }
 
-
-    async FormLogin() {
-        setTimeout(() => this.isShowLoginForm = true, 100);
-        this.FormError = {
-            pass: '',
-            message: '',
-            name: ''
-        }
-    }
+    // async FormLogin() {
+    //     setTimeout(() => this.isShowLoginForm = true, 100);
+    //     this.FormError = {
+    //         pass: '',
+    //         message: '',
+    //         name: ''
+    //     }
+    // }
 
     async Login() {
 

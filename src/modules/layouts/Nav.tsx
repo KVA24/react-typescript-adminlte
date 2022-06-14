@@ -21,7 +21,7 @@ class Nav extends Component {
                                     className="fas fa-bars"/></a>
                             </li>
                             <li className="nav-item d-none d-sm-inline-block">
-                                <a href="/" className="nav-link">Home</a>
+                                <a href="/" className="nav-link text-uppercase">HOME</a>
                             </li>
                         </ul>
                         {/* Right navbar links */}
@@ -55,33 +55,3 @@ class Nav extends Component {
 }
 
 export default Nav;
-
-const logoProfile = css`
-    color: #3e3c4f;
-    border: none;
-    width: 35px;
-    height: 35px;
-    background-color: rgba(129, 125, 161, 0.18);
-`;
-const cssLogo = css`
-    max-width: 92% !important;
-    height: auto !important;
-`;
-
-const css_left = css`
-    padding-left: 10px !important;
-`;
-
-const css_nav = css`
-&:after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(rgba(48,56,70,.2),rgba(48,56,70,0));
-    pointer-events: none;
-    z-index: 4;
-}
-`;

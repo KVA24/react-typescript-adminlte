@@ -1,13 +1,8 @@
 import React, {Component} from 'react';
 import {observer} from "mobx-react";
 import "./LoginStyle.scss";
-import Input from "../../../common/form/components/Input";
-import FormGroup from "../../../common/form/components/FormGroup";
 import {loginStore} from "./LoginStore";
-import Validations from "../../../common/form/components/Validations";
 import {Link, Redirect} from "react-router-dom";
-import {css} from "@emotion/core";
-import StorageService from "../../../common/service/StorageService";
 import {profileStore} from "../../profile/ProfileStore";
 
 @observer
