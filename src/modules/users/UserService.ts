@@ -1,5 +1,5 @@
 import {deleteRequest, getRequest, IApiResponse, postRequest, putRequest} from "../../common/helpers/RequestHelper";
-import {userStore} from "./UserStore";
+// import {userStore} from "./UserStore";
 
 class UserService {
     public getUsers(): Promise<IApiResponse> {
@@ -10,9 +10,9 @@ class UserService {
         return getRequest(`/v1/portal/users/members`);
     }
 
-    public searchUser(): Promise<IApiResponse> {
-        return getRequest(`/v1/portal/users/search?name=${userStore.searchName.trim()}`);
-    }
+    // public searchUser(): Promise<IApiResponse> {
+    //     return getRequest(`/v1/portal/users/search?name=${userStore.searchName.trim()}`);
+    // }
 
     public userDetail(id: number): Promise<IApiResponse> {
         return getRequest(`/v1/portal/users/${id}`);

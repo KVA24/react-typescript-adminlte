@@ -36,7 +36,7 @@ class SideBar extends Component {
                 <aside className="main-sidebar sidebar-dark-primary elevation-4">
                     {/* Brand Logo */}
                     <a href="/" className="brand-link">
-                        <span className="brand-text font-weight-light ml-3">MTG Portal</span>
+                        <span className="brand-text font-weight-light ml-3">KVA</span>
                     </a>
                     {/* Sidebar */}
                     <div className="sidebar p-0">
